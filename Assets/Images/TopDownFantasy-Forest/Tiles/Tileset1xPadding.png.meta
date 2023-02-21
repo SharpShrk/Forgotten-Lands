@@ -1,0 +1,2182 @@
+fileFormatVersion: 2
+guid: fb96fb9772297ed48bd5171cfe062f9d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 17
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset1xPadding_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aabccd0fd0e3ec459312c03a4086257
+      internalID: -826315641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28041b5e954854a44b731a412948a4b5
+      internalID: -1764219995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6dfd3a0cbd98e42b3959b94e17b497
+      internalID: -150623752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24731dfb69bddde47b898b2aad031f0a
+      internalID: -620000587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e83425e65b53943bd86d72942abfbd
+      internalID: -509057457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cfd18590e47364b944cbeffe322aeb
+      internalID: -1804794362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a6d065b08407e49af78b130aa17827
+      internalID: 82985998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 238.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4579374c8623b4480d08e1dd7afd6b
+      internalID: -707109402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf3eeab1a7f5c54cabff8e768498cdc
+      internalID: -1218507859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df0e6d43ccc9e741a956c0eaf45dbcf
+      internalID: 1653426916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0c7545d929f5e4aa86842bc53ff9d6
+      internalID: 218639306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc10d112ddd6764f9af4b8b3a436959
+      internalID: -286535116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d77c10adcf022944b25bd692ef46074
+      internalID: -683542367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be439292a8458a6498ed8cec5a50f426
+      internalID: 958463021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5bcc2587644b144aaab9569b23fdb0
+      internalID: -1285002710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 221.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a6e95d7fffa55448e1573dca6190e1
+      internalID: -1745216400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a058d2910a4fab443be0dbf9050785ad
+      internalID: -967201883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d6450352236fd44b137d5609ae6fd4
+      internalID: -730761336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1127e21404520d84491f14edf26b1bd9
+      internalID: 1976182566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a7908a3508d4419a8a5ed89ab679f
+      internalID: -1297113016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b060defb906f7349b836cca55dd1d9a
+      internalID: -721756150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbefc516dcf14841ae2836485caef74
+      internalID: 679409766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0030e2cc185cad41b503193fd9a4290
+      internalID: 759833876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 204.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc44b3b2662a3cf4ab8c282592f8a1ff
+      internalID: 325779018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a0c9a3dd2b2ab4ea8592d7fb00711c
+      internalID: -1734304782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc1e2bf0ac5c243a74b2edca384517
+      internalID: -615033667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c8e4691c657e54bb9c355df20c4b74
+      internalID: -276649938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504ba4c7705a1a84d9579112eef34200
+      internalID: 34369561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93953c4e49af69844bd06f831e41e1b4
+      internalID: 149484052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e9cc72e4763b418b7e7e237be93d8
+      internalID: 768648343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8181b59abe4af94289b57413092e888
+      internalID: -331668494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_31
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 187.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10db1dd5663cefb4db3e61b25decb4a1
+      internalID: -1163402881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6102aad683c71c4998f2d05d08179ee
+      internalID: -1199089502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24e60d593105514082578d93209959e
+      internalID: 265054436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db4a3bb1cf6974eb25c0798b685da3
+      internalID: 1512603702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca3e0802f3994f46997121653e4fd58
+      internalID: -552840804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f997beb8ad9240b16e8eac2ac4f45
+      internalID: 318756353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90aed8dfcd319649aeb9772c567ba00
+      internalID: -1569728903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 170.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3bb9343afd40141b4c98b675f4e34d
+      internalID: 1745614019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d81637ace932564d9db4c92b82dd622
+      internalID: -344292100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580655fb2f027f241a0e7d67d1ec7a6a
+      internalID: 1488276643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7b97146b908694cb6a98a6b4a9b37e
+      internalID: 1703759776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e574adba76de24445ba95cec8fc156b1
+      internalID: 2133183936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79eb73166f4622418a0a5fc7d62c384
+      internalID: -1196128170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_44
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba4a63592f9c594489bea6cfc6b5a00
+      internalID: -1844945530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 136.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3b4e8c46e10f04f9a34ed28348e521
+      internalID: -665460529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 136.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a551802e12ed74eae3b771a9116151
+      internalID: 1077522117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_47
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 136.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c3310161047e45b9a5e4a4f929771
+      internalID: 223361131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 136.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a797634b6a4ca40b2f901a9801db67
+      internalID: 544186531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_49
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136.93333
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ce2f7c9b7c7d408798673e5564228
+      internalID: -627145137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_50
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 119.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feafdbdf803acf04e8fc096ff74ea8c6
+      internalID: -1002648366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 119.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a6128016a35440a1299a89ada4d0a
+      internalID: 1977864812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 119.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bc233a90d0de04c8f1ed4951313887
+      internalID: 1889261920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 119.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af8f4d68b418424f9237377339df667
+      internalID: -1352441602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_54
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 102.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8df6ae4795f984c9c249e51899e242
+      internalID: -1149279489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_55
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f0ddbadabc44e40ba198462fe679e0
+      internalID: -2113020121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_56
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a60200004ce644d94e83ec6e9328fb
+      internalID: -1555934911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0915d49291eaf794ca6c6fc3ea70cd3e
+      internalID: -916217365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7fc504a0bbfa441bbbb3de1bd59986
+      internalID: 483133852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_59
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51772eea0d0b5c846a982af59015b039
+      internalID: 1433384678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_60
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd213d57378b694a8b9f5de55c8b99b
+      internalID: -1382955131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147489dac1da8a647945c9303b661c06
+      internalID: -952095055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428dec378759ad24dae652337baebd15
+      internalID: -962400534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cac8d030dfcfd44b3e604a2d458bcb
+      internalID: -91755263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 85.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9813056f9a2a7a0408da3d45ef4343b5
+      internalID: -1592024254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e872658599e97a6458f5860394a0f455
+      internalID: 459459047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd109f7aac0a5684db9d3f35345b486b
+      internalID: -189960908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_67
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f0aa0d0b34e043831810d7653bd62
+      internalID: -1678167547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_68
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8811836e795a8514e86f2393bd7feb63
+      internalID: -383203838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_69
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5e7c8b91d1879449268cc439bb36b2
+      internalID: -73889671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_70
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992640f731c754943841b339cea923e9
+      internalID: 1862868053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea482aef9096a544ac16ca665fe8e3c
+      internalID: 1306929425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_72
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 68.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80f4935eaca98f4487610a043a17a6f
+      internalID: -1131986964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7076505b29159e47b789c72d59ab142
+      internalID: 673756955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_74
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06be5ab057ace244c9d3fde4289cbc5f
+      internalID: 1281248811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eb4d747ac8d354cabe2be0f0cdb09a
+      internalID: -401796517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_76
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d3918dba07e564dabb39065b535e58
+      internalID: 841304527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f91c2e745a0384eace29a5d40b7b97
+      internalID: -791300455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85701140c62a4141a498c0e2beeaa18
+      internalID: -1209956266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3bbdbfdf749e545abe1f7d19ee005f
+      internalID: 1267812184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc933379c81ac44bec266507033f4a
+      internalID: 972885877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0569c634766650042ae1e559d23edf40
+      internalID: -1335463240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3764fd1d507694d9bded70e75c718f
+      internalID: 1098860644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ada05cb8b75d2340a04a6a82d9ad6e2
+      internalID: 1758316354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eec766f0656820498620969f6a9d068
+      internalID: -1998616603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_85
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3148bf0a06f564fab647aef401e095
+      internalID: -1808633971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_86
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df241419213b98640a687f2bf2194522
+      internalID: 647957644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_87
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34.933334
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76420222947cf144fad6a7d8ef1342b5
+      internalID: -1860710177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_88
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17.933332
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb7726af1351574ca6d361d522676aa
+      internalID: -1040158087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_89
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17.933332
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f92c67d0d6c154aaae890e3abe81e3
+      internalID: 290109010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_90
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0.93333244
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2397c15b087af4698eec54566dc618
+      internalID: -1971057154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset1xPadding_91
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0.93333244
+        width: 17.125
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09acbca7776c10a4e8dda7e99ed2d939
+      internalID: -1733283816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tileset1xPadding_56: -1555934911
+      Tileset1xPadding_57: -916217365
+      Tileset1xPadding_52: 1889261920
+      Tileset1xPadding_31: -1163402881
+      Tileset1xPadding_37: -1569728903
+      Tileset1xPadding_16: -967201883
+      Tileset1xPadding_30: -331668494
+      Tileset1xPadding_24: -1734304782
+      Tileset1xPadding_78: -1209956266
+      Tileset1xPadding_49: -627145137
+      Tileset1xPadding_23: 325779018
+      Tileset1xPadding_67: -1678167547
+      Tileset1xPadding_88: -1040158087
+      Tileset1xPadding_55: -2113020121
+      Tileset1xPadding_59: 1433384678
+      Tileset1xPadding_3: -620000587
+      Tileset1xPadding_11: -286535116
+      Tileset1xPadding_29: 768648343
+      Tileset1xPadding_58: 483133852
+      Tileset1xPadding_73: 673756955
+      Tileset1xPadding_43: -1196128170
+      Tileset1xPadding_81: -1335463240
+      Tileset1xPadding_6: 82985998
+      Tileset1xPadding_28: 149484052
+      Tileset1xPadding_19: -1297113016
+      Tileset1xPadding_64: -1592024254
+      Tileset1xPadding_77: -791300455
+      Tileset1xPadding_66: -189960908
+      Tileset1xPadding_74: 1281248811
+      Tileset1xPadding_46: 1077522117
+      Tileset1xPadding_75: -401796517
+      Tileset1xPadding_53: -1352441602
+      Tileset1xPadding_33: 265054436
+      Tileset1xPadding_91: -1733283816
+      Tileset1xPadding_80: 972885877
+      Tileset1xPadding_20: -721756150
+      Tileset1xPadding_27: 34369561
+      Tileset1xPadding_90: -1971057154
+      Tileset1xPadding_50: -1002648366
+      Tileset1xPadding_9: 1653426916
+      Tileset1xPadding_51: 1977864812
+      Tileset1xPadding_38: 1745614019
+      Tileset1xPadding_79: 1267812184
+      Tileset1xPadding_42: 2133183936
+      Tileset1xPadding_17: -730761336
+      Tileset1xPadding_25: -615033667
+      Tileset1xPadding_44: -1844945530
+      Tileset1xPadding_14: -1285002710
+      Tileset1xPadding_22: 759833876
+      Tileset1xPadding_15: -1745216400
+      Tileset1xPadding_34: 1512603702
+      Tileset1xPadding_4: -509057457
+      Tileset1xPadding_8: -1218507859
+      Tileset1xPadding_47: 223361131
+      Tileset1xPadding_86: 647957644
+      Tileset1xPadding_89: 290109010
+      Tileset1xPadding_2: -150623752
+      Tileset1xPadding_82: 1098860644
+      Tileset1xPadding_62: -962400534
+      Tileset1xPadding_5: -1804794362
+      Tileset1xPadding_83: 1758316354
+      Tileset1xPadding_7: -707109402
+      Tileset1xPadding_85: -1808633971
+      Tileset1xPadding_61: -952095055
+      Tileset1xPadding_12: -683542367
+      Tileset1xPadding_84: -1998616603
+      Tileset1xPadding_69: -73889671
+      Tileset1xPadding_72: -1131986964
+      Tileset1xPadding_71: 1306929425
+      Tileset1xPadding_18: 1976182566
+      Tileset1xPadding_40: 1488276643
+      Tileset1xPadding_76: 841304527
+      Tileset1xPadding_35: -552840804
+      Tileset1xPadding_60: -1382955131
+      Tileset1xPadding_54: -1149279489
+      Tileset1xPadding_63: -91755263
+      Tileset1xPadding_87: -1860710177
+      Tileset1xPadding_1: -1764219995
+      Tileset1xPadding_36: 318756353
+      Tileset1xPadding_41: 1703759776
+      Tileset1xPadding_70: 1862868053
+      Tileset1xPadding_13: 958463021
+      Tileset1xPadding_65: 459459047
+      Tileset1xPadding_32: -1199089502
+      Tileset1xPadding_26: -276649938
+      Tileset1xPadding_48: 544186531
+      Tileset1xPadding_45: -665460529
+      Tileset1xPadding_21: 679409766
+      Tileset1xPadding_39: -344292100
+      Tileset1xPadding_68: -383203838
+      Tileset1xPadding_0: -826315641
+      Tileset1xPadding_10: 218639306
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
