@@ -5211,6 +5211,7 @@ MonoBehaviour:
   Slider: {fileID: 842089053}
   Points: {fileID: 225276645}
   Player: {fileID: 626614616}
+  _playerLevel: {fileID: 1082670861}
 --- !u!114 &842089053
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,10 +1,11 @@
+using UnityEngine;
+
 public class ExpBar : Bar
 {
-    private PlayerLevel _playerLevel;
+    [SerializeField] private PlayerLevel _playerLevel;
 
     private void Start()
     {
-        _playerLevel = Player.GetComponent<PlayerLevel>();
         Slider.fillAmount = 0;
         Points.text = $"{_playerLevel.ExperiencePoints} / {_playerLevel.ExperiencePointsForLvlUp}";
     }
