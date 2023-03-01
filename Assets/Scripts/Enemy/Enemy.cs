@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(EnemyMover))]
+
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _health;
@@ -11,33 +13,32 @@ public class Enemy : MonoBehaviour
 
     protected Player _targetPlayer;
 
+    private CoinSpawner _coinSpawner;
     private bool _isBurning;
     private Coroutine _takeBurningCoroutine;
     private EnemyMover _mover;
     private Shop _shop;
     private float _currentArmor;
 
-    public Player Target => _targetPlayer;
-
-    public event UnityAction Dying;  
+    public Player Target => _targetPlayer; 
 
     private void Start()
     {
         _isBurning = false;
         _mover = GetComponent<EnemyMover>();
+        _coinSpawner = FindObjectOfType<CoinSpawner>();
         _currentArmor = _armor;        
     }
 
     private void OnEnable()
     {
-        GameObject shopObject = GameObject.FindWithTag("Shop");
-        _shop = shopObject.GetComponent<Shop>();
-        _shop.GameRestarted += OnRestartDestroy;
+        _shop = FindObjectOfType<Shop>();
+        _shop.GameRestarted += EnemyDestroing;
     }
 
     private void OnDisable()
     {
-        _shop.GameRestarted -= OnRestartDestroy;
+        _shop.GameRestarted -= EnemyDestroing;
     }
 
     public void Init(Player target)
@@ -129,10 +130,8 @@ public class Enemy : MonoBehaviour
     {
         if (_health <= 0)
         {
-            Dying?.Invoke();
-            Destroy(gameObject);            
-
-            SpawnCoin();
+            _coinSpawner.SpawnCoin(transform.position);
+            EnemyDestroing();
 
             PlayerLevel playerLevel = _targetPlayer.GetComponent<PlayerLevel>();
             playerLevel.AddExperincePoint();
@@ -140,12 +139,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void SpawnCoin()
-    {
-        GameObject coin = Instantiate(_coin, transform.position, Quaternion.identity);
-    }
-
-    private void OnRestartDestroy()
+    private void EnemyDestroing()
     {
         Destroy(gameObject);
     }

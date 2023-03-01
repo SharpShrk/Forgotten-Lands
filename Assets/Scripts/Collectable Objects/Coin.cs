@@ -10,8 +10,7 @@ public class Coin : MonoBehaviour
 
     private void OnEnable()
     {
-        GameObject shopObject = GameObject.FindWithTag("Shop");
-        _shop = shopObject.GetComponent<Shop>();
+        _shop = FindObjectOfType<Shop>();
         _shop.GameRestarted += DestroyCoin;
     }
 
@@ -25,7 +24,7 @@ public class Coin : MonoBehaviour
         if (collision.TryGetComponent<PlayerInventory>(out PlayerInventory player))
         {
             player.AddMoneyInsideRound(_value);
-            Destroy(gameObject);
+            DestroyCoin();
         }
     }
 

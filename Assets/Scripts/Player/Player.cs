@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(PlayerMover))]
+
 public class Player : MonoBehaviour
 {
     [SerializeField] private float _maxHealth;
@@ -74,14 +76,7 @@ public class Player : MonoBehaviour
         float chanseIgnore;
 
         chanseIgnore = Random.Range(minChanceIgnore, maxChanceIgnore);
-
-        if (chanseIgnore < armor)
-        {
-            return true;
-        }            
-        else
-        {
-            return false;
-        }
+        
+        return chanseIgnore < armor;
     }
 }

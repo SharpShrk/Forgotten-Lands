@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Player))]
+
 public class PlayerInventory : MonoBehaviour
 {
     [SerializeField] private MoneyImprove _moneyImprove;

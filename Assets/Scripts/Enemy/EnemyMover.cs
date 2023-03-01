@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
+
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
