@@ -11,8 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject _coin;
     [SerializeField] private ParticleSystem _particleBurning;
 
-    protected Player _targetPlayer;
-
+    private Player _targetPlayer;
     private CoinSpawner _coinSpawner;
     private bool _isBurning;
     private Coroutine _takeBurningCoroutine;

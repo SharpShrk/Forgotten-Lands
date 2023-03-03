@@ -7,19 +7,19 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private Enemy enemy;
+    private Enemy _enemy;
     private Coroutine _takeSlowdownSpeedCoroutine;
     private bool _isSlow;
 
     private void Start()
     {
-        enemy = GetComponent<Enemy>();
+        _enemy = GetComponent<Enemy>();
         _isSlow = false;
     }
 
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, enemy.Target.transform.position, _speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, _enemy.Target.transform.position, _speed * Time.deltaTime);
     }
 
     public void ReduceSpeed(float duration, float speedReductionValue)

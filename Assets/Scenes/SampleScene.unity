@@ -1206,7 +1206,7 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 1071315422923137293, guid: 4342e05bd0ee0be4eac891c3f8c09562, type: 3}
   _count: 50
-  parent: {fileID: 169363193}
+  _parent: {fileID: 169363193}
 --- !u!1 &187799035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4962,7 +4962,7 @@ MonoBehaviour:
   - {fileID: 3224906885093317868, guid: 32fbda3633ad0e345a1441e0c6080af7, type: 3}
   - {fileID: 4601547678852816014, guid: d432ab07b7ace4940a773ba9a2ff3f13, type: 3}
   _count: 300
-  parent: {fileID: 726444082}
+  _parent: {fileID: 726444082}
 --- !u!1 &766500655
 GameObject:
   m_ObjectHideFlags: 0
@@ -7878,6 +7878,7 @@ MonoBehaviour:
   _spawnPointRadius: 5
   _player: {fileID: 626614616}
   _enemyPool: {fileID: 726444083}
+  _shop: {fileID: 341885171}
 --- !u!4 &1186010298
 Transform:
   m_ObjectHideFlags: 0
@@ -11396,7 +11397,7 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 1071315422923137293, guid: b4a8f3586b7c4ce4982d94e9287b8fcc, type: 3}
   _count: 30
-  parent: {fileID: 1700701671}
+  _parent: {fileID: 1700701671}
 --- !u!1 &1730858802
 GameObject:
   m_ObjectHideFlags: 0

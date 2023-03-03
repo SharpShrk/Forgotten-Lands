@@ -5,7 +5,7 @@ public class ObjectPool : MonoBehaviour
 {
     [SerializeField] private GameObject[] _prefabs;
     [SerializeField] private int _count;
-    [SerializeField] private Transform parent;
+    [SerializeField] private Transform _parent;
 
     private List<GameObject> _pool;
 
@@ -18,7 +18,7 @@ public class ObjectPool : MonoBehaviour
             GameObject obj = _prefabs[Random.Range(0, _prefabs.Length)];
             obj = Instantiate(obj);
             obj.SetActive(false);
-            obj.transform.SetParent(parent, false);
+            obj.transform.SetParent(_parent, false);
 
             _pool.Add(obj);
         }
@@ -30,7 +30,7 @@ public class ObjectPool : MonoBehaviour
         {
             GameObject obj = _prefabs[Random.Range(0, _prefabs.Length)];
             obj = Instantiate(obj);
-            obj.transform.SetParent(parent, false);
+            obj.transform.SetParent(_parent, false);
 
             _pool.Add(obj);
         }

@@ -11,25 +11,37 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float _spawnPointRadius;
     [SerializeField] private Player _player;
     [SerializeField] private ObjectPool _enemyPool;
+    [SerializeField] private Shop _shop;
 
-    private float _spawnTime;
+    private bool _spawning;
+    private Coroutine _spawnCoroutine;
+
+    private void OnEnable()
+    {
+        
+        _shop.GameRestarted += StartSpawningEnemies;
+        _player.GameOver += StopSpawningEnemies;
+    }
+
+    private void OnDisable()
+    {
+        _shop.GameRestarted -= StartSpawningEnemies;
+        _player.GameOver -= StopSpawningEnemies;
+    }
 
     private void Start()
     {
-        _spawnTime = _timeAfterLastSpawn;
+        StartSpawningEnemies();
     }
 
-    private void Update()
+    private IEnumerator SpawnEnemiesCoroutine()
     {
-        InstantiateEnemy();
-    }
+        _spawning = true;
 
-    private void InstantiateEnemy()
-    {
-        if (_spawnTime < 0)
+        while (_spawning)
         {
             Transform spawnPoint = _spawnPoints[Random.Range(0, _spawnPoints.Length)];
-            
+
             for (int i = 0; i < _numberEnemiesinAtPoint; i++)
             {
                 GameObject enemy = _enemyPool.GetObject();
@@ -43,11 +55,22 @@ public class Spawner : MonoBehaviour
                 enemyScript.Init(_player);
             }
 
-            _spawnTime = _timeAfterLastSpawn;
+            yield return new WaitForSeconds(_timeAfterLastSpawn);
         }
-        else
+    }
+
+    private void StopSpawningEnemies()
+    {
+        if (_spawnCoroutine != null)
         {
-            _spawnTime -= Time.deltaTime;
-        }          
+            StopCoroutine(_spawnCoroutine);
+        }
+
+        _spawning = false;
+    }
+
+    private void StartSpawningEnemies()
+    {
+        _spawnCoroutine = StartCoroutine(SpawnEnemiesCoroutine());
     }
 }
