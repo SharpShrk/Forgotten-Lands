@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private ParticleSystem _particleBurning;
 
     private ObjectPool _pool;
+    private ScoreManager _scoreManager;
     private Player _targetPlayer;
     private CoinSpawner _coinSpawner;
     private bool _isBurning;
@@ -22,15 +23,6 @@ public class Enemy : MonoBehaviour
 
     public Player Target => _targetPlayer; 
 
-    private void Start()
-    {
-        _isBurning = false;
-        _mover = GetComponent<EnemyMover>();
-        _coinSpawner = FindObjectOfType<CoinSpawner>();
-        _pool = FindObjectOfType<ObjectPool>();
-        _currentArmor = _armor;        
-    }
-
     private void OnEnable()
     {
         _shop = FindObjectOfType<Shop>();
@@ -40,6 +32,16 @@ public class Enemy : MonoBehaviour
     private void OnDisable()
     {
         _shop.GameRestarted -= EnemyDestroing;
+    }
+
+    private void Start()
+    {
+        _isBurning = false;
+        _mover = GetComponent<EnemyMover>();
+        _coinSpawner = FindObjectOfType<CoinSpawner>();
+        _pool = FindObjectOfType<ObjectPool>();
+        _scoreManager = FindObjectOfType<ScoreManager>();
+        _currentArmor = _armor;
     }
 
     public void Init(Player target)
@@ -136,7 +138,7 @@ public class Enemy : MonoBehaviour
 
             PlayerLevel playerLevel = _targetPlayer.GetComponent<PlayerLevel>();
             playerLevel.AddExperincePoint();
-            _targetPlayer.AddScore();
+            _scoreManager.AddScore();
         }
     }
 

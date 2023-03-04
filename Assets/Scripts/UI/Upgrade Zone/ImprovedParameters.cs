@@ -4,7 +4,7 @@ using TMPro;
 
 public abstract class ImprovedParameters : MonoBehaviour
 {
-    [SerializeField] protected PlayerInventory PlayerInventory;
+    [SerializeField] protected ShopBalance ShopBalance;
     [SerializeField] protected Image Slider;
     [SerializeField] protected TMP_Text CostText;
     [SerializeField] protected TMP_Text LevelText;
@@ -30,7 +30,7 @@ public abstract class ImprovedParameters : MonoBehaviour
             return;
         }
 
-        if (PlayerInventory.MoneyShop < Cost)
+        if (ShopBalance.Balance < Cost)
         {
             return;
         }
@@ -38,7 +38,7 @@ public abstract class ImprovedParameters : MonoBehaviour
         Level++;
         Slider.fillAmount = Level/MaxLevel;
 
-        PlayerInventory.SubtractTotalMoney(Cost);
+        ShopBalance.SubtractMoney(Cost);
 
         Cost += Cost / 2;
 

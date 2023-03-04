@@ -1,22 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class ScoreBar : MonoBehaviour
 {
     [SerializeField] private TMP_Text _points;
-    [SerializeField] private Player _player;
+    [SerializeField] private ScoreManager _scoreManager;
 
     private void OnEnable()
     {
-        _player.ScoreChanged += OnValueChanged;
-        _points.text = $"SCORE: {_player.Score}";
+        _scoreManager.ScoreChanged += OnValueChanged;
+        _points.text = $"SCORE: {_scoreManager.Score}";
     }
 
     private void OnDisable()
     {
-        _player.ScoreChanged -= OnValueChanged;
+        _scoreManager.ScoreChanged -= OnValueChanged;
     }
 
     private void OnValueChanged(int value)

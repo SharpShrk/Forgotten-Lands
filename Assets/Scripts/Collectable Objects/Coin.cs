@@ -6,11 +6,13 @@ public class Coin : MonoBehaviour
 {
     [SerializeField] private int _value;
     
+    private MoneyManager _moneyManager;
     private Shop _shop;
 
     private void OnEnable()
     {
         _shop = FindObjectOfType<Shop>();
+        _moneyManager = FindObjectOfType<MoneyManager>();
         _shop.GameRestarted += DestroyCoin;
     }
 
@@ -21,9 +23,9 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<PlayerInventory>(out PlayerInventory player))
+        if (collision.TryGetComponent<Player>(out Player player))
         {
-            player.AddMoneyInsideRound(_value);
+            _moneyManager.AddPlayerMoney(_value);
             DestroyCoin();
         }
     }

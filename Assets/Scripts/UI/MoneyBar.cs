@@ -5,32 +5,33 @@ public class MoneyBar : MonoBehaviour
 {
     [SerializeField] private TMP_Text _moneyPerRound;
     [SerializeField] private TMP_Text _moneyMoneyTotal;
-    [SerializeField] private PlayerInventory _playerInventory;
+    [SerializeField] private PlayerBalance _playerBalance;
+    [SerializeField] private ShopBalance _shopBalance;
 
     private void OnEnable()
     {
-        _playerInventory.MoneyPerRoundChanged += OnMoneyPerRoundChanged;
-        _playerInventory.MoneyTotaChanged += OnMoneyTotalChanged;
+        _playerBalance.BalanceChanged += OnPlayerBalanceChanged;
+        _shopBalance.BalanceChanged += OnShopBalanceChanged;
     }
 
     private void OnDisable()
     {
-        _playerInventory.MoneyPerRoundChanged -= OnMoneyPerRoundChanged;
-        _playerInventory.MoneyTotaChanged -= OnMoneyTotalChanged;
+        _playerBalance.BalanceChanged -= OnPlayerBalanceChanged;
+        _shopBalance.BalanceChanged -= OnShopBalanceChanged;
     }
 
     private void Start()
     {
-        _moneyPerRound.text = _playerInventory.MoneyPlayer.ToString();
-        _moneyMoneyTotal.text = _playerInventory.MoneyShop.ToString();
+        _moneyPerRound.text = _playerBalance.Balance.ToString();
+        _moneyMoneyTotal.text = _shopBalance.Balance.ToString();
     }
 
-    private void OnMoneyPerRoundChanged(int value)
+    private void OnPlayerBalanceChanged(int value)
     {
         _moneyPerRound.text = value.ToString();
     }
 
-    private void OnMoneyTotalChanged(int value)
+    private void OnShopBalanceChanged(int value)
     {
         _moneyMoneyTotal.text = value.ToString();
     }
