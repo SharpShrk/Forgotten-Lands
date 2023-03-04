@@ -49,7 +49,7 @@ public class ObjectPool : MonoBehaviour
     public void ReturnObject(GameObject obj)
     {
         obj.SetActive(false);
-        _pool.Add(obj);
+        _pool.Insert(0, obj);        
     }
 
     public void DeactivateAllObjects()

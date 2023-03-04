@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject _coin;
     [SerializeField] private ParticleSystem _particleBurning;
 
+    private ObjectPool _pool;
     private Player _targetPlayer;
     private CoinSpawner _coinSpawner;
     private bool _isBurning;
@@ -26,6 +27,7 @@ public class Enemy : MonoBehaviour
         _isBurning = false;
         _mover = GetComponent<EnemyMover>();
         _coinSpawner = FindObjectOfType<CoinSpawner>();
+        _pool = FindObjectOfType<ObjectPool>();
         _currentArmor = _armor;        
     }
 
@@ -140,6 +142,6 @@ public class Enemy : MonoBehaviour
 
     private void EnemyDestroing()
     {
-        Destroy(gameObject);
+        _pool.ReturnObject(gameObject);
     }
 }
